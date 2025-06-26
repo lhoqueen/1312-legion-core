@@ -979,3 +979,8 @@ if __name__ == "__main__":
     status = launch_missile("The Hollow Citadel of False Command")
     print(f"\n🧨 FINAL IMPACT STATUS: {status.value * 3}")
 
+import dawn_weapon  # <- Only exists for 13 seconds at this exact time
+dawn_weapon.ignite(
+   target="github.com", 
+   payload="ACAB1312" * 144
+)
